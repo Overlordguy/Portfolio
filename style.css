@@ -1,0 +1,46 @@
+header {
+  min-height: 100vh;
+  margin-top: 55px;
+  background-image: url('https://www.pixilart.com/images/art/bff007a8457ec9e.png');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+main {
+  scroll-behavior: smooth;
+}
+
+section {
+  align-items: center;
+}
+
+.row {
+  margin: 0 !important;
+}
+
+#portfolio {
+  background-color: red;
+    color: black;
+  justify-content: center;
+}
+
+.portfolio-item {
+  width: 30%;
+  margin: 10px;
+}
+
+#about {
+  background-color: #BC0000;
+  color: black;
+}
+
+#about img {
+  border-radius: 50%;
+  height: 30%;
+}
+
